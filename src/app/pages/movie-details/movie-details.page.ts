@@ -23,4 +23,8 @@ export class MovieDetailsPage implements OnInit {
     });
   }
 
+  openHomepage() {
+    window.open(this.movie.homepage);
+  }
+
 }

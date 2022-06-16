@@ -34,10 +34,13 @@
         <ion-icon name="cash-outline" slot="start"></ion-icon>
         <ion-label>{{movie.budget | currency: 'USD'}}</ion-label>
       </ion-item>
-
-
     </ion-card-content>
 
+    <ion-footer>
+      <ion-button expand="full" (click)="openHomepage()">
+        Open Homepage
+      </ion-button>
+    </ion-footer>
 
   </ion-card>
 </ion-content>
